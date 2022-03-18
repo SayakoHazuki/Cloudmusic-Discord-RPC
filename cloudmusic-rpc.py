@@ -1,6 +1,5 @@
 import asyncio
 import os
-import sys
 from pypresence import Presence
 import psutil
 import win32process
@@ -9,7 +8,6 @@ import time
 import ctypes
 import re
 import json
-import pystray
 from pystray import Icon as icon, Menu as menu, MenuItem as item
 from PIL import Image, ImageDraw
 from threading import Thread
