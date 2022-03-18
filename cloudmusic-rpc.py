@@ -78,8 +78,8 @@ while True:
                 temp_track_singer = track[1]
                 RPC.update(details=temp_track_title, state=temp_track_singer,
                            large_image=config["imgId"], large_text=config["imgTxt"],
+                           small_image=config["smallImgId"], small_text=config["smallImgTxt"],
                            start=int(time.time()))
                 print(
                     'Track updated - {} // {}'.format(temp_track_title, temp_track_singer))
-                time.sleep(15)
     time.sleep(0.2)
